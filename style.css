@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.d-flex {
+  height: 100vh; /* Changed purely for Stack example */
+}
+
+.card {
+  height: 100%;
+}
+
+.card-body {
+  background-color: rgb(222, 232, 232);
+  overflow-y: auto;
+}
+
+.badge {
+  font-weight: 400;
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+}
+#p1 .text-right {
+  text-align: left;
+}
+
+#p1 .text-left {
+  text-align: right;
+}
+
+#p2 .text-right {
+  text-align: right;
+}
+
+#p2 .text-left {
+  text-align: left;
+}
+
+#p1 .text-right label {
+  background-color: rgb(12, 141, 234);
+}
+
+#p1 .text-left label {
+  background-color: rgb(94, 97, 99);
+}
+
+#p2 .text-right label {
+  background-color: rgb(94, 97, 99);
+}
+
+#p2 .text-left label {
+  background-color: rgb(12, 141, 234);
+}
+
+table {
+  width: 100%;
+  margin-top: auto;
+}
